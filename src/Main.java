@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         int A = 100;   // Было
-        int B = 1100;  // Добавил
-        int C;       // Итого
-        int D;       // Бонус
-        if (B > 1000) {
-            D = B / 100;
-            C = A + B + D;
-            System.out.println("Бонус" +C);
+        int amount = 1100;  // Добавил
+        int total;       // Итого
+        int bonus;       // Бонус
+        if (amount > 1000) {
+            bonus = amount / 100;
+            total = A + amount + bonus;
+            System.out.println("Бонус" +total);
         } else {
             System.out.println("Бонус" +0);
 
