@@ -8,6 +8,8 @@ public class Main {
             bonus = amount / 100;
             total = balans + amount + bonus;
             System.out.println(bonus);
+        } else {
+            System.out.println(bonus + 0);
         }
 
 
